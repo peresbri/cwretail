@@ -1,0 +1,63 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Preston Pizzeria",
+      "toppings_price_cents": 100
+    },
+    {
+      "id": 2,
+      "name": "Southbank Pizzeria"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Capricciosa",
+      "description": "Cheese, Ham, Mushrooms, Olives"
+    },
+    {
+      "id": 2,
+      "name": "Mexicana",
+      "description": "Cheese, Salami, Capsicum, Chilli"
+    },
+    {
+      "id": 3,
+      "name": "Margherita",
+      "description": "Cheese, Spinach, Ricotta, Cherry Tomatoes"
+    },
+    {
+      "id": 4,
+      "name": "Vegetarian",
+      "description": "Cheese, Mushrooms, Capsicum, Onion, Olives"
+    }
+  ],
+  "location_products": [
+    {
+      "location_id": 1,
+      "product_id": 1,
+      "price_cents": 2000
+    },
+    {
+      "location_id": 1,
+      "product_id": 2,
+      "price_cents": 1800
+    },
+    {
+      "location_id": 1,
+      "product_id": 3,
+      "price_cents": 2200
+    },
+    {
+      "location_id": 2,
+      "product_id": 1,
+      "price_cents": 2500
+    },
+    {
+      "location_id": 2,
+      "product_id": 4,
+      "price_cents": 1700
+    }
+  ],
+  "toppings": ["Cheese", "Capsicum", "Salami", "Olives"]
+}
