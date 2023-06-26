@@ -59,5 +59,26 @@
       "price_cents": 1700
     }
   ],
-  "toppings": ["Cheese", "Capsicum", "Salami", "Olives"]
+  "toppings": [
+    {
+      "id": 1,
+      "price_cents": 100,
+      "name": "Cheers"
+    },
+    {
+      "id": 2,
+      "price_cents": 100,
+      "name": "Capsicum"
+    },
+    {
+      "id": 3,
+      "price_cents": 100,
+      "name": "Salami"
+    },
+    {
+      "id": 4,
+      "price_cents": 100,
+      "name": "Olives"
+    }
+  ]
 }
